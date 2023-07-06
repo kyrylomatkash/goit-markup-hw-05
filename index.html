@@ -421,7 +421,11 @@
         <div class="subscribe-form-container">
           <p class="subscribe-form-title">Subscribe</p>
           <form class="subscribe-form" name="subscribe-form">
-            <label for="subscribe-form" class="subscribe-form-label">
+            <label
+              for="subscribe-form"
+              id="subscribe-form"
+              class="subscribe-form-label"
+            >
               <input
                 type="email"
                 class="subscribe-form-input"
@@ -466,7 +470,9 @@
             </div>
           </div>
           <div class="modal-form-container">
-            <label for="user-phone" class="modal-label">Phone</label>
+            <label for="user-phone" id="modal-label" class="modal-label"
+              >Phone</label
+            >
             <div class="modal-input-container">
               <input
                 type="tel"
@@ -505,7 +511,8 @@
               rows="10"
               placeholder="Text input"
             ></textarea>
-            <div class="user-privacy-container">
+          </div>
+          <div class="user-privacy-container">
             <input
               type="checkbox"
               id="user-privacy"
