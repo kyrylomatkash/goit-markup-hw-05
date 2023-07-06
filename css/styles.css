@@ -492,7 +492,7 @@ img {
   cursor: pointer;
   border: none;
 }
-.close-button {
+.send-button {
   margin-left: 16px;
 }
 .subscribe-form-input::placeholder {
@@ -758,4 +758,12 @@ img {
   justify-content: center;
   align-items: center;
   fill: transparent;
+}
+input:checked .span {
+  background-color: var(--pressedstate-color);
+  border: none;
+  fill: var(--light-text);
+}
+.user-privacy-link {
+  color: var(--primarybrand-color);
 }
