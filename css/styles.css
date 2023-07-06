@@ -680,6 +680,9 @@ img {
   line-height: 24px;
   letter-spacing: 0.02px;
 }
+.modal-form-container {
+  letter-spacing: 0.02em;
+}
 .modal-label {
   display: block;
   font-size: 12px;
