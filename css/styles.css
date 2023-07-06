@@ -453,22 +453,25 @@ letter-spacing: 0.32px;
 margin-bottom: 16px;
 }
 .subscribe-form-label{
-  gap: 24px;
 }
 .subscribe-form {
   display: flex;
+  gap:24px;
 }
 .subscribe-form-input{
 color:#ffffff;
 width: 264px;
 height: 40px;
 letter-spacing: 0.04em;
+font-size: 12px;
+line-height: 1.5;
 padding-left: 16px;
 border-radius: 4px;
 border: 1px solid var(--white-text);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 background-color: transparent;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
 }
 .subscribe-form-button {
 display: flex;
