@@ -681,10 +681,10 @@ img {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.02px;
 }
-.modal-form-container {
-  letter-spacing: 0.02em;
+
+.modal-text-area {
+  margin-bottom: 16px;
 }
 .modal-label {
   display: block;
@@ -723,7 +723,6 @@ img {
   width: 100%;
   height: 120px;
   padding: 8px 16px;
-  margin-bottom: 16px;
   letter-spacing: 0.04em;
   font-size: 12px;
   line-height: 1.17;
@@ -737,7 +736,6 @@ img {
   resize: none;
 }
 .user-privacy-container {
-  margin-bottom: 24px;
 }
 .user-privacy-label {
   line-height: 1.17;
