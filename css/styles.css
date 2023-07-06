@@ -492,6 +492,9 @@ img {
   cursor: pointer;
   border: none;
 }
+.close-button {
+  margin-left: 16px;
+}
 .subscribe-form-input::placeholder {
   color: #ffffff;
 }
