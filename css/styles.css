@@ -689,6 +689,7 @@ img {
   color: var(--subtle-text-color);
 }
 .modal-input-container {
+  margin-bottom: 8px;
   position: relative;
 }
 .modal-form-input {
