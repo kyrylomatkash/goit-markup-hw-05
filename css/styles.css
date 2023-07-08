@@ -596,6 +596,7 @@ img {
   border-color: #4d5ae5;
 }
 .modal-icons {
+  fill: ;
   position: absolute;
   left: 16px;
   transform: translateY(-50%);
@@ -606,6 +607,7 @@ img {
   fill: #4d5ae5;
 }
 .modal-form-textarea {
+  display: block;
   width: 100%;
   height: 120px;
   font-size: 12px;
@@ -649,15 +651,13 @@ img {
   justify-content: center;
   fill: transparent;
 }
-input:checked .span {
-  background-color: var(--pressedstate-color);
-  border: none;
-  fill: var(--light-text);
+.user-privacy-span:focus {
+  background-color: #404bbf;
 }
 .user-privacy-link {
   color: var(--primarybrand-color);
 }
-.user-privacy-checkbox:checked + .user-privacy-label .user-privacy-icon {
+.user-privacy-checkbox:checked + .user-privacy-label .user-privacy-span {
   fill: #f4f4fd;
   background-color: #404bbf;
   border: none;
