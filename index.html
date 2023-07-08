@@ -421,21 +421,20 @@
         <div class="subscribe-form-container">
           <p class="subscribe-form-title">Subscribe</p>
           <form class="subscribe-form" name="subscribe-form">
-            <label
-              for="subscribe-form-input"
-              id="subscribe-form"
-              class="subscribe-form-label"
-            >
+            <label for="subscribe-form-input" class="subscribe-form-label">
+              Email:
               <input
                 type="email"
                 class="subscribe-form-input"
+                id="subscribe-form-input"
                 name="subscribe-form-input"
                 placeholder="E-mail"
                 autocomplete="off"
               />
             </label>
             <button type="submit" class="subscribe-form-button">
-              Subscribe<svg class="subscribe-button" width="24" height="24">
+              Subscribe
+              <svg class="subscribe-button" width="24" height="24">
                 <use href="./images/icons.svg#icon-send-button"></use>
               </svg>
             </button>
@@ -455,7 +454,7 @@
         </p>
         <form class="modal-form">
           <div class="modal-form-container">
-            <label for="user-name" class="modal-form-input">Name</label>
+            <label for="user-name" class="modal-label">Name</label>
             <div class="modal-input-container">
               <input
                 type="text"
@@ -469,7 +468,7 @@
             </div>
           </div>
           <div class="modal-form-container">
-            <label for="user-phone" id="modal-form-input" class="modal-label"
+            <label for="user-phone" id="modal-label" class="modal-label"
               >Phone</label
             >
             <div class="modal-input-container">
@@ -485,7 +484,7 @@
             </div>
           </div>
           <div class="modal-form-container">
-            <label for="user-email" class="modal-form-input">Email</label>
+            <label for="user-email" class="modal-label">Email</label>
             <div class="modal-input-container">
               <input
                 type="text"
@@ -513,10 +512,11 @@
             <input
               type="checkbox"
               id="user-privacy"
+              name="user-privacy"
               value="true"
               class="user-privacy-checkbox visually-hidden"
             />
-            <label class="user-privacy-label">
+            <label for="user-privacy" class="user-privacy-label">
               <span class="user-privacy-span">
                 <svg class="user-privacy-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-accept"></use>
